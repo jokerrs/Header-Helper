@@ -3,7 +3,7 @@
 ## Usage
 
 ```php
-print headerHelper( 'Title', 'Description', 'Keywords', 'Type of the page', 'Full url to the image', 'Robots index', 'Css array');
+print headerHelper( 'Title', 'Description', 'Keywords', 'Type of the page', 'Full url to the image', 'Full url to the image', 'Robots index', 'Css array');
 ```
 
 ## Output
