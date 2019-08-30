@@ -54,3 +54,28 @@ etc....
     );
 ```
  
+### Output
+```html
+<meta name="title" content="SomeTitle">
+<meta property="og:title" content="SomeTitle">
+<meta itemprop="name" content="SomeTitle">
+<meta name="twitter:title" content="SomeTitle">
+<meta name="description" content="SomeDescription">
+<meta itemprop="description" content="SomeDescription">
+<meta property="og:description" content="SomeDescription">
+<meta name="twitter:description" content="SomeDescription">
+<meta name="keywords" content="keyword1, keyword2">
+<meta property="og:keywords" content="keyword1, keyword2">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://example.com/images/image.jpg">
+<meta property="image" content="https://example.com/images/image.jpg">
+<meta property="twitter:image" content="https://example.com/images/image.jpg">
+<meta property="og:url" content="https://example.com/index.php?123123">
+<meta name="twitter:url" content="https://example.com/index.php?123123">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index, follow">
+<title>title</title>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/style2.css">
+```
