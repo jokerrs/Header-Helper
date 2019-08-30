@@ -50,7 +50,7 @@ etc....
     '/css/bootstrap.min.css',
     '/css/style.css',
     '/css/style2.css',
-    .... etc
+    '.... etc'
     );
 ```
  
