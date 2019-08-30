@@ -91,3 +91,4 @@ function headerHelper(
     return $return;
 }
 
+headerHelper(null,null,null,null,null,null,null,null);
