@@ -17,15 +17,15 @@
  * @return string
  */
 function headerHelper(
-    string $title = null,
-    string $description = null,
-    string $keywords = null,
-    string $type = null,
-    string $image = null,
-    string $url =  null,
-    string $robots = null,
-    array $css = null
-    ): string {
+    ?string $title = null,
+    ?string $description = null,
+    ?string $keywords = null,
+    ?string $type = null,
+    ?string $image = null,
+    ?string $url =  null,
+    ?string $robots = null,
+    ?array $css = null
+    ): ?string {
 
     $return = null;
 
