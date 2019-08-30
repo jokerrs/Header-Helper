@@ -32,33 +32,33 @@ print headerHelper( 'Title', 'Description', 'Keywords', 'Type of the page', 'Ful
 <link rel="stylesheet" type="text/css" href="/css/style2.css">
 ```
 
-### Params
+## Params
 
-##### Title
+#### Title
 
  - Title is a string
 
-##### Description
+#### Description
 
  - Description is a string
 
-##### Keywords
+#### Keywords
   
  - Keywords are list of your keywords. Example "keywords, keyword2, etc"
   
-##### Type
+#### Type
 
  - Type is type of the page check out [this](https://stackoverflow.com/a/51701628/7406948).
  
-##### Image
+#### Image
 
  - Image is full url for the image. Example: https://example.com/images/image.jpg
  
-##### URL
+#### URL
 
  - If you do not provide URL, it wil be self generated. But you must declare it like null. If you want to have some custom URL, just declare it like string.
  
-##### Robots
+#### Robots
 
  - [Check this out](https://www.robotstxt.org/meta.html)
 ```
@@ -68,7 +68,7 @@ noindex, nofollow
 index, follow
 etc....  
 ```
-##### CSS
+#### CSS
 
  - You can also manage css files from this function. But you must use an array in a function. So the best solution is to declare an array. Then to use it in a function.
  ```php
