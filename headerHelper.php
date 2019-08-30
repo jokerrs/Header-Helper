@@ -41,18 +41,15 @@ function headerHelper(
         $return .= "<meta itemprop=\"description\" content=\"$description\">\n";
         $return .= "<meta property=\"og:description\" content=\"$description\">\n";
         $return .= "<meta name=\"twitter:description\" content=\"$description\">\n";
-
     }
 
     if ( isset( $keywords ) ) {
         $return .= "<meta name=\"keywords\" content=\"$keywords\">\n";
         $return .= "<meta property=\"og:keywords\" content=\"$keywords\">\n";
-
     }
 
     if ( isset( $type ) ) {
         $return .= "<meta property=\"og:type\" content=\"$type\">\n";
-
     }
 
     if ( isset( $image ) ) {
