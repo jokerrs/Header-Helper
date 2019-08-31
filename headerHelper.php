@@ -5,6 +5,7 @@
  * @version 0.0.6
  */
 
+
 /**
  * @param string|NULL $title
  * @param string|NULL $description
@@ -17,7 +18,7 @@
  * @return string
  */
 function headerHelper(
-    ?string $title = null,
+    ? $title = null,
     ?string $description = null,
     ?string $keywords = null,
     ?string $type = null,
@@ -82,7 +83,7 @@ function headerHelper(
 
     $return .= "<title>$title</title>\n";
 
-    if( is_array( $css ) && isset( $css ) ){
+    if( isset( $css ) && is_array( $css ) ){
         foreach ($css as $css_url ){
             $return .= "<link rel=\"stylesheet\" type=\"text/css\" href=\"$css_url\">\n";
         }
