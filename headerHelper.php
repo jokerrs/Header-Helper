@@ -18,7 +18,7 @@
  * @return string
  */
 function headerHelper(
-    ? $title = null,
+    ?string $title = null,
     ?string $description = null,
     ?string $keywords = null,
     ?string $type = null,
